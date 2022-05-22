@@ -1,19 +1,19 @@
 import { StyleSheet, Text, View, Image } from "react-native";
 import React from "react";
 import Menu from "../component/Menu";
-// import { useFonts, WorkSans_400Regular } from "@expo-google-fonts/work-sans";
-// import { Nunito_700Bold } from "@expo-google-fonts/nunito";
-// import AppLoading from "expo-app-loading";
+import { useFonts, WorkSans_400Regular } from "@expo-google-fonts/work-sans";
+import { Nunito_700Bold } from "@expo-google-fonts/nunito";
+import AppLoading from "expo-app-loading";
 
 const Home = (props) => {
-//   let [fontsLoaded] = useFonts({
-//     WorkSans_400Regular,
-//     Nunito_700Bold,
-//   });
+  let [fontsLoaded] = useFonts({
+    WorkSans_400Regular,
+    Nunito_700Bold,
+  });
 
-//   if (!fontsLoaded) {
-//     <AppLoading />;
-//   }
+  if (!fontsLoaded) {
+    <AppLoading />;
+  }
   const description =
     "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. ";
 
